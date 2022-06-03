@@ -48,6 +48,7 @@ public class Logic {
         if (I < 100) {
             System.out.println("Total income for 1 m^2 is less then 100$/day (" + I + ")");
             System.out.println("There will be no taxes.\n");
+            System.exit(0);
         }
         double D = 0;
 
